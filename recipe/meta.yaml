@@ -1,5 +1,5 @@
 {% set name = "panda-client" %}
-{% set version = "1.4.88" %}
+{% set version = "1.4.92" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/panda-client-{{ version }}.tar.gz
-  sha256: 1d59964edb3a193627b0a76edecfe44ddbc21527905b25b186d3fde1d9ba6f49
+  sha256: cc237e72e60e1f4af13dba595037bf5bc20c3d8512906abe686b4f1b525072b9
 
 build:
   number: 0
