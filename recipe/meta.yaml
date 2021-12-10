@@ -1,5 +1,5 @@
 {% set name = "panda-client" %}
-{% set version = "1.4.99" %}
+{% set version = "1.4.89" %}
 
 
 package:
