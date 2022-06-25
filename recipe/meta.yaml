@@ -1,5 +1,5 @@
 {% set name = "panda-client" %}
-{% set version = "1.5.16" %}
+{% set version = "1.5.17" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/PanDAWMS/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: 31631e02508d18db696a4008ceef57029348f43f6d5744e089a22fa5e136962a 
+  sha256: 58333cc9cd05a34f9e8ec10373d35905f69ee3167617aec7998231545a05d81b 
 
 build:
   number: 0
