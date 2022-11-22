@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/PanDAWMS/{{ name }}/archive/refs/tags/{{ version }}.tar.gz
-  sha256: d3ff117501a94851617e103830d13d0dbd4b958ce80586fb8a6b2b632360d3f1 
+  sha256: d3ff117501a94851617e103830d13d0dbd4b958ce80586fb8a6b2b632360d3f1
 
 build:
   number: 0
