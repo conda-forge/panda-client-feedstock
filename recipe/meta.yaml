@@ -19,6 +19,8 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - hatchling
+    - setuptools
   run:
     - python >=3.6
 
