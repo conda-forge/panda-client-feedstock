@@ -11,20 +11,22 @@ source:
   sha256: f98e4411e54a17ab77add05091e50f7912f76197aa2dd3d719c6ef60e0473ae7
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - hatchling
     - setuptools
   run:
-    - python >=3.6
+    - python >={{ python_min }}
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - pandatools
 
